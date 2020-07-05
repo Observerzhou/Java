@@ -1,0 +1,19 @@
+
+[
+squid:S106 "9Replace this use of System.out or System.err by a logger.(‹±Ô¥ıÿÿÿÿ8Ñ‘´¿±.
+dsquid:S2142$"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8½ÀÓ¿±.
+[
+squid:S1060"9Replace this use of System.out or System.err by a logger.(ÕŞ¸šıÿÿÿÿ8õãÈ¿±.
+V
+squid:S106."9Replace this use of System.out or System.err by a logger.(Õ©÷8õãÈ¿±.
+V
+squid:S106,"9Replace this use of System.out or System.err by a logger.(İÕŞø8õãÈ¿±.
+[
+squid:S106*"9Replace this use of System.out or System.err by a logger.(Ô›Í¸ùÿÿÿÿ8ªªÕ¿±.
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(àà”¢ıÿÿÿÿ8Ø§É¿±.
+Fsquid:S1148%"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8½ÀÓ¿±.
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Öåû·8Ø§É¿±.
+nsquid:CommentedOutCodeLine!"<This block of commented-out lines of code should be removed.(û« µÿÿÿÿÿ8¢ÓÒ¿±.
+Rsquid:S16111"/Remove the parentheses around the "e" parameter(“ıä¬şÿÿÿÿ8õãÈ¿±.
+[
+squid:S1062"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8õãÈ¿±.

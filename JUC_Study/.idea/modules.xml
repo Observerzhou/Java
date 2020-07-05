@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AsyncCallBackDemo/AsyncCallBackDemo.iml" filepath="$PROJECT_DIR$/AsyncCallBackDemo/AsyncCallBackDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CAS/CAS.iml" filepath="$PROJECT_DIR$/CAS/CAS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DeadLock/DeadLock.iml" filepath="$PROJECT_DIR$/DeadLock/DeadLock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ForkjoinDemo/ForkjoinDemo.iml" filepath="$PROJECT_DIR$/ForkjoinDemo/ForkjoinDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FunctionInterface/FunctionInterface.iml" filepath="$PROJECT_DIR$/FunctionInterface/FunctionInterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JMMDemo/JMMDemo.iml" filepath="$PROJECT_DIR$/JMMDemo/JMMDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JUC_Study.iml" filepath="$PROJECT_DIR$/JUC_Study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReentrantLock/ReentrantLock.iml" filepath="$PROJECT_DIR$/ReentrantLock/ReentrantLock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SingleInstance/SingleInstance.iml" filepath="$PROJECT_DIR$/SingleInstance/SingleInstance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpinLock/SpinLock.iml" filepath="$PROJECT_DIR$/SpinLock/SpinLock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StreamCompute/StreamCompute.iml" filepath="$PROJECT_DIR$/StreamCompute/StreamCompute.iml" />
+    </modules>
+  </component>
+</project>
