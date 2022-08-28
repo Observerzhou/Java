@@ -1,0 +1,39 @@
+server:
+  port: 8081
+
+# mybatis相关配置
+mybatis:
+  configuration.map-underscore-to-camel-case: true  # 自动驼峰转换
+
+spring:
+  # 数据源的配置
+  datasource:
+    # 数据源一
+    first:
+      driverClassName: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://127.0.0.1:3307/system?useUnicode=true&useSSL=false&zeroDateTimeBehavior=convertToNull&characterEncoding=UTF-8&allowMultiQueries=true&serverTimezone=Asia/Shanghai
+      username: root
+      password: 123456
+    # 数据源二
+    second:
+      driverClassName: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://127.0.0.1:3307/log?useUnicode=true&useSSL=false&zeroDateTimeBehavior=convertToNull&characterEncoding=UTF-8&allowMultiQueries=true&serverTimezone=Asia/Shanghai
+      username: root
+      password: 123456
+
+    # 连接池配置 - Druid
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      initial-size: 5
+      max-active: 10
+      min-idle: 5
+      max-wait: 30000
+      pool-prepared-statements: true
+      max-pool-prepared-statement-per-connection-size:  20
+      validation-query: SELECT 1 FROM DUAL
+      validation-query-timeout: 60000
+      test-on-borrow: false
+      test-on-return: false
+      test-while-idle: true
+      time-between-eviction-runs-millis:  60000
+      min-evictable-idle-time-millis: 100000
