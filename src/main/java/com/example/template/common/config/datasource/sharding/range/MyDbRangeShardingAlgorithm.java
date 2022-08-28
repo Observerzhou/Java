@@ -13,9 +13,9 @@ import java.util.List;
 /**
  * <p> 自定义分库规则类 </p>
  *
- * @author zhengqingya
+ * @author zhouhuihui
  * @description 范围分片算法
- * @date 2021/11/1 10:37
+ * @date 2022/08/29
  */
 @Slf4j
 public class MyDbRangeShardingAlgorithm implements RangeShardingAlgorithm<Long> {

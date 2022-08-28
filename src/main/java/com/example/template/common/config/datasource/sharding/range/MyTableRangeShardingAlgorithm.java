@@ -12,9 +12,9 @@ import java.util.Set;
 /**
  * <p> 自定义分表规则类 </p>
  *
- * @author zhengqingya
+ * @author zhouhuihui
  * @description 范围分片算法
- * @date 2021/11/1 10:56
+ * @date 2022/08/29
  */
 @Slf4j
 public class MyTableRangeShardingAlgorithm implements RangeShardingAlgorithm<Byte> {

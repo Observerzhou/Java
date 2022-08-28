@@ -16,7 +16,7 @@ import java.util.Map;
 /**
  * <p> 引入sharding-jdbc后数据源健康配置 </p>
  *
- * @author zhengqingya
+ * @author zhouhuihui
  * @description 解决问题 ConnectionCallback; isValid; nested exception is java.sql.SQLFeatureNotSupportedException: isValid
  * 原因 springboot2.4数据源健康检查
  * @date 2021/10/28 10:54

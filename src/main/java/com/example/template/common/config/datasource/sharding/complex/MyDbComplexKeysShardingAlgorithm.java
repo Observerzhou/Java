@@ -15,9 +15,9 @@ import java.util.Map;
  * 自定义分库规则类
  * </p>
  *
- * @author zhengqingya
+ * @author zhouhuihui
  * @description 复合分片算法
- * @date 2021/11/1 11:19
+ * @date 2022/08/29
  */
 @Slf4j
 public class MyDbComplexKeysShardingAlgorithm implements ComplexKeysShardingAlgorithm<String> {

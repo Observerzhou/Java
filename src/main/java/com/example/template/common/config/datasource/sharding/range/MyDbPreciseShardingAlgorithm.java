@@ -9,9 +9,9 @@ import java.util.Collection;
 /**
  * <p> 自定义分库规则类 </p>
  *
- * @author zhengqingya
+ * @author zhouhuihui
  * @description 精确分片算法
- * @date 2021/10/30 1:12 下午
+ * @date 2022/08/29
  */
 @Slf4j
 public class MyDbPreciseShardingAlgorithm implements PreciseShardingAlgorithm<Long> {

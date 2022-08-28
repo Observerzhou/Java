@@ -14,9 +14,9 @@ import java.util.Set;
  * 自定义分表规则类
  * </p>
  *
- * @author zhengqingya
+ * @author zhouhuihui
  * @description 复合分片算法
- * @date 2021/11/1 11:19
+ * @date 2022/08/29
  */
 @Slf4j
 public class MyTableComplexKeysShardingAlgorithm implements ComplexKeysShardingAlgorithm<Long> {

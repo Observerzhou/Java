@@ -10,9 +10,9 @@ import java.util.Collection;
 /**
  * <p> 自定义分表规则类 </p>
  *
- * @author zhengqingya
+ * @author zhouhuihui
  * @description Hint分片算法
- * @date 2021/11/1 16:09
+ * @date 2022/08/29
  */
 @Slf4j
 public class MyTableHintShardingAlgorithm implements HintShardingAlgorithm<Integer> {

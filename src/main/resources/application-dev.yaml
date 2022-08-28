@@ -121,23 +121,23 @@ spring:
           #          database-strategy:
           #            standard:
           #              sharding-column: user_id # 分库用到的键
-          #              precise-algorithm-class-name: com.zhengqing.demo.config.sharding.precise.MyDbPreciseShardingAlgorithm # 自定义分库算法实现类
+          #              precise-algorithm-class-name: com.example.template.config.sharding.precise.MyDbPreciseShardingAlgorithm # 自定义分库算法实现类
           #          table-strategy:
           #            standard:
           #              sharding-column: sex # 添加数据分表字段(根据字段插入数据到那个表 ex：sex)
-          #              precise-algorithm-class-name: com.zhengqing.demo.config.sharding.precise.MyTablePreciseShardingAlgorithm # 自定义分表算法实现类
+          #              precise-algorithm-class-name: com.example.template.config.sharding.precise.MyTablePreciseShardingAlgorithm # 自定义分表算法实现类
 
           # 范围分片算法 => sql在分库/分表键上执行 BETWEEN AND、>、<、>=、<= 时触发计算逻辑，否则不走分库/分表，全库/全表执行。
           #          database-strategy:
           #            standard:
           #              sharding-column: user_id
-          #              precise-algorithm-class-name: com.zhengqing.demo.config.sharding.range.MyDbPreciseShardingAlgorithm
-          #              range-algorithm-class-name: com.zhengqing.demo.config.sharding.range.MyDbRangeShardingAlgorithm
+          #              precise-algorithm-class-name: com.example.template.config.sharding.range.MyDbPreciseShardingAlgorithm
+          #              range-algorithm-class-name: com.example.template.config.sharding.range.MyDbRangeShardingAlgorithm
           #          table-strategy:
           #            standard:
           #              sharding-column: sex
-          #              precise-algorithm-class-name: com.zhengqing.demo.config.sharding.range.MyTablePreciseShardingAlgorithm
-          #              range-algorithm-class-name: com.zhengqing.demo.config.sharding.range.MyTableRangeShardingAlgorithm
+          #              precise-algorithm-class-name: com.example.template.config.sharding.range.MyTablePreciseShardingAlgorithm
+          #              range-algorithm-class-name: com.example.template.config.sharding.range.MyTableRangeShardingAlgorithm
 
           # =========== ↓↓↓↓↓↓ 复合分片策略 ↓↓↓↓↓↓ ===========
           # SQL 语句中有>，>=, <=，<，=，IN 和 BETWEEN AND 等操作符，不同的是复合分片策略支持对多个分片健操作。
@@ -145,21 +145,21 @@ spring:
           #          database-strategy:
           #            complex:
           #              sharding-columns: user_id,sex
-          #              algorithm-class-name: com.zhengqing.demo.config.sharding.complex.MyDbComplexKeysShardingAlgorithm
+          #              algorithm-class-name: com.example.template.config.sharding.complex.MyDbComplexKeysShardingAlgorithm
           #          table-strategy:
           #            complex:
           #              sharding-columns: user_id,sex
-          #              algorithm-class-name: com.zhengqing.demo.config.sharding.complex.MyTableComplexKeysShardingAlgorithm
+          #              algorithm-class-name: com.example.template.config.sharding.complex.MyTableComplexKeysShardingAlgorithm
 
           # =========== ↓↓↓↓↓↓ hint分片策略 ↓↓↓↓↓↓ ===========
-          # 通过 Hint API实现个性化配置 => 可查看 com.zhengqing.demo.service.impl.UserServiceImpl.listPageForHint
+          # 通过 Hint API实现个性化配置 => 可查看 com.example.template.service.impl.UserServiceImpl.listPageForHint
 
     #          database-strategy:
     #            hint:
-    #              algorithm-class-name: com.zhengqing.demo.config.sharding.hint.MyDbHintShardingAlgorithm
+    #              algorithm-class-name: com.example.template.config.sharding.hint.MyDbHintShardingAlgorithm
     #          table-strategy:
     #            hint:
-    #              algorithm-class-name: com.zhengqing.demo.config.sharding.hint.MyTableHintShardingAlgorithm
+    #              algorithm-class-name: com.example.template.config.sharding.hint.MyTableHintShardingAlgorithm
 
 
 
