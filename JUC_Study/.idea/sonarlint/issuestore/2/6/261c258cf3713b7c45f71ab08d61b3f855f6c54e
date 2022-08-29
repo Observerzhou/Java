@@ -1,8 +1,0 @@
-
-isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(©ÞÙª8‚‚Ðª±.
-U
-squid:S106"9Replace this use of System.out or System.err by a logger.(ƒÚáB8º¶Öª±.
-Jsquid:S1602",Remove useless curly braces around statement(»ýŒ¡8ø÷Öª±.
-Jsquid:S1612",Replace this lambda with a method reference.(»ýŒ¡8ÇÉÓª±.
-Osquid:S1611"1Remove the parentheses around the "str" parameter(»ýŒ¡8ø÷Öª±.
-isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(˜ÿõø8‚‚Ðª±.

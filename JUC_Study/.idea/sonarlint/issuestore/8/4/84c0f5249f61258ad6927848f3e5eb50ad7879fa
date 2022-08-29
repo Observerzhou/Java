@@ -1,4 +1,0 @@
-
-Zsquid:UselessImportCheck"/Remove this unused import 'java.sql.Statement'.(ÏÖÔø8›•ÿÒ±.
-Vsquid:S2440"3Remove this instantiation of "StaticInnerInstance".(„·»Èøÿÿÿÿ8ÛúŒÓ±.
-Xsquid:S1118":Add a private constructor to hide the implicit public one.(û…‰ß8ÛúŒÓ±.
