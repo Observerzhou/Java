@@ -1,0 +1,8 @@
+
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(•ÓÙØ8”ÿƒª±.
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(íÃýá8ÚÌŠª±.
+Tsquid:S1611"1Remove the parentheses around the "str" parameter(üäö£ýÿÿÿÿ8ä‘ª±.
+Osquid:S1612",Replace this lambda with a method reference.(üäö£ýÿÿÿÿ8˜‹Žª±.
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‘’”Óþÿÿÿÿ8ÚÌŠª±.
+vsquid:S1602"SRemove useless curly braces around statement and then remove useless return keyword(üäö£ýÿÿÿÿ8ä‘ª±.

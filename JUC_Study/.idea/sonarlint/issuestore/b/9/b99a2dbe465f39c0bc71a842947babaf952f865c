@@ -1,0 +1,8 @@
+
+Osquid:S1611"1Remove the parentheses around the "str" parameter(¥‹ëß8‹–ü©±.
+ysquid:S4276"[Refactor this code to use the more specialised Functional Interface 'UnaryOperator<String>'(¥‹ëß8‹–ü©±.
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(˜¸þ—ÿÿÿÿÿ8÷ýø©±.
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ö®éíøÿÿÿÿ8ýÜø©±.
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(Å‹íâýÿÿÿÿ8À®õ©±.
+qsquid:S1602"SRemove useless curly braces around statement and then remove useless return keyword(¥‹ëß8‹–ü©±.

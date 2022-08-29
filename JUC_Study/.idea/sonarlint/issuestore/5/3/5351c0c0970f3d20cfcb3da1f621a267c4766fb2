@@ -1,0 +1,12 @@
+
+jsquid:S00112("FDefine and throw a dedicated exception instead of using a generic one.(¥úé˜ûÿÿÿÿ8„±³Ò±.
+Xsquid:S1191"5Use classes from the Java API instead of Sun classes.(°İÀ‰şÿÿÿÿ8ÁµÒ±.
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ÿ× šıÿÿÿÿ8„±³Ò±.
+Gsquid:S1125%")Remove the literal "false" boolean value.(ûÅŸ8„±³Ò±.
+isquid:CommentedOutCodeLine?"<This block of commented-out lines of code should be removed.(¾ø¾°8„±³Ò±.
+isquid:UselessImportCheck"9Remove this unused import 'sun.security.jca.GetInstance'.(°İÀ‰şÿÿÿÿ8ÁµÒ±.
+V
+squid:S106K"9Replace this use of System.out or System.err by a logger.(ïå¢ı8ÎªÒ±.
+[
+squid:S106L"9Replace this use of System.out or System.err by a logger.(ûèõŠüÿÿÿÿ8„±³Ò±.
+^squid:UselessImportCheck".Remove this unused import 'java.time.Instant'.(Â‚éñÿÿÿÿÿ8¦“µÒ±.
